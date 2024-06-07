@@ -1093,6 +1093,9 @@ https://github.com/cmliu/edgetunnel
 			} else if (userAgent.includes('sing-box') || userAgent.includes('singbox') || (( _url.searchParams.has('singbox') || _url.searchParams.has('sb')) && !userAgent.includes('subconverter'))) {
 				url = `https://${subconverter}/sub?target=singbox&url=${encodeURIComponent(url)}&insert=false&config=${encodeURIComponent(subconfig)}&emoji=true&list=false&tfo=false&scv=true&fdn=false&sort=false&new_name=true`;
 				isBase64 = false;
+			} else if (userAgent.includes('surge') || userAgent.includes('surge') || (( _url.searchParams.has('surge') || _url.searchParams.has('surge')) && !userAgent.includes('subconverter'))) {
+				url = `https://${subconverter}/sub?target=surge&url=${encodeURIComponent(url)}&insert=false&config=${encodeURIComponent(subconfig)}&emoji=true&list=false&tfo=false&scv=true&fdn=false&sort=false&new_name=true`;
+				isBase64 = false;
 			}
 		}
 		
