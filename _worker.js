@@ -964,7 +964,7 @@ function 配置信息(UUID, 域名地址) {
 	return [v2ray,clash];
 }
 
-let subParams = ['sub','base64','b64','clash','singbox','sb'];
+let subParams = ['sub','base64','b64','clash','singbox','sb', 'surge'];
 
 /**
  * @param {string} userID
